@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class myObj {
     public myObj(){
-        System.out.println("hellow spring");
+        System.out.println("hello Spring");
     }
 }

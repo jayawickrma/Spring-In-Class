@@ -8,5 +8,6 @@ public class appInit {
         AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext();
         annotationConfigApplicationContext.register(Config.class);
         annotationConfigApplicationContext.refresh();
+        annotationConfigApplicationContext.close();
     }
 }
