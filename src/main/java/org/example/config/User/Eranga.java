@@ -2,6 +2,7 @@ package org.example.config.User;
 
 import jakarta.annotation.PostConstruct;
 import org.example.config.contact.goodGirl;
+import org.example.config.info.nail;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
@@ -17,6 +18,7 @@ public class Eranga {
     }
     @Autowired
     @Qualifier("long hair")
+    @nail
     public void setGoodgirl(goodGirl goodgirl){
         this.goodgirl=goodgirl;
     }
