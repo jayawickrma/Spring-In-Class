@@ -5,7 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 //@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 @Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
 public class myObj {
