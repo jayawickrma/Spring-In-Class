@@ -14,7 +14,7 @@ public class appInit {
         System.out.println(obj2);
 
         ConfigurableListableBeanFactory configurableListableBeanFactory=annotationConfigApplicationContext.getBeanFactory();
-        System.out.println("Is bean singleton" +configurableListableBeanFactory.isSingleton("myObj"));
+        System.out.println("Is bean singleton - " +configurableListableBeanFactory.isSingleton("myObj"));
 
         annotationConfigApplicationContext.registerShutdownHook();
     }
