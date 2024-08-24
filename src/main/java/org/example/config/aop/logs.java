@@ -14,5 +14,7 @@ public class logs {
         System.out.println("stated log");
     }
     @After("execution(public void endTransaction())")
-    public static void endtranslogs(){}
+    public static void endtranslogs(){
+        System.out.println("ended log");
+    }
 }
